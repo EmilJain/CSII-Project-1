@@ -9,17 +9,5 @@ public class MyClass {
         Deck shuffleDeck = new Deck();
         shuffleDeck.shuffle();
         shuffleDeck.print();
-
-     
-
-
-
-
-
-
-
-
-
-
     }
 }
