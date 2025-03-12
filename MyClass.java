@@ -9,5 +9,9 @@ public class MyClass {
         Deck shuffleDeck = new Deck();
         shuffleDeck.shuffle();
         shuffleDeck.print();
+
+        System.out.println("\ninsertion sort: ");
+        shuffleDeck.insertionSort();
+        shuffleDeck.print();
     }
 }
