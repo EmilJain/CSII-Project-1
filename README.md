@@ -37,10 +37,10 @@
     - Very slow for large data sets
     - No or limited real world application.
    
-  Big 0 Notation:
-    - O(n²)
+   - Big 0 Notation:
+      - O(n²)
 
-  Pseudo Code:
+  - Pseudo Code:
     - Step 1: Iterate through the deck multiple times.
     - Step 2: Compare each pair of adjacent cards.
     - Step 3: If a card is greater than the next one, swap them.
