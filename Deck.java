@@ -189,5 +189,28 @@ public class Deck {
             return merge(d1, d2);
         }
     }
+      /**
+     * Reorders the cards (in place) using insertion sort.
+     */
+    public void insertionSort() {
+        for (int i = 1; i < cards.length; i++) {
+            insert(cards[i], i);
+        }
+    }
+
+    /**
+     * Inserts a card into its correct position in the sorted part of the deck.
+     */
+    private void insert(Card card, int i) {
+        int j = i;
+
+        // Shift elements to make space for the new card
+        while (j > 0 && cards[j - 1].compareTo(card) > 0) {
+            cards[j] = cards[j - 1];
+            j--;
+        }
+        // Insert the card into its correct position
+        cards[j] = card;
+    }
    
 }
