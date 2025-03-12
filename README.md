@@ -30,11 +30,11 @@
   - Not suitable for large data sets and worst case time complexity are quite high
   - Sort the array using multiple passes. After the first pass the maximum element goes to the end. So on and so forth.
   - In every pass only elements that haven't been sorted get moved
-  Pros
+  - Pros
     - Easy to understand and implement
     - Doesn't require additional memory
     - Stable algorithim
-  Cons
+  - Cons
     - Very slow for large data sets
     - No or limited real world application.
    
