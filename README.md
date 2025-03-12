@@ -22,8 +22,6 @@
     - Step 4: Insert the current card into its correct position.
     - Step 5: Repeat until the entire deck is sorted
 
-
-
 #Bubble Sort
   - Repeadetly swaps the adjacent elements if they are in the wrong order.
   - Not suitable for large data sets and worst case time complexity are quite high
@@ -46,6 +44,9 @@
     - Step 3: If a card is greater than the next one, swap them.
     - Step 4: Continue this process until no swaps are needed, meaning the deck is sorted.
     - Step 5: Each pass moves the largest unsorted card to its correct position at the end of the deck.
+   
+#Comparing the two and choosing which one we will use
+While both insertion sort and bubble sort are exceptional options, we beleive that insertion sort is the better option for sorting cards. It requires fewer swaps, making it more efficient, especially when the deck is nearly sorted. Additionally, insertion sort mirrors the natural way people organize cards, making it both intuitive and practical.
 
   
    
