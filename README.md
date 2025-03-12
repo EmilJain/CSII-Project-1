@@ -15,7 +15,6 @@
    -  
  - Big O Notation
    - O(n²)
-
  - Pseudo Code
     - Step 1: Iterate through the deck starting from the second card (index 1).
     - Step 2: For each card, determine its correct position in the sorted portion of the deck.
@@ -42,7 +41,11 @@
     - O(n²)
 
   Pseudo Code:
-    - 
+    - Step 1: Iterate through the deck multiple times.
+    - Step 2: Compare each pair of adjacent cards.
+    - Step 3: If a card is greater than the next one, swap them.
+    - Step 4: Continue this process until no swaps are needed, meaning the deck is sorted.
+    - Step 5: Each pass moves the largest unsorted card to its correct position at the end of the deck.
 
   
    
