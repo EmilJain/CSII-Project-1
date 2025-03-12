@@ -8,13 +8,20 @@ Insertion Sort
     - repeat until array is sorted
  - Pros
    - efficent for small data sets
-   - simple and easy to use/implement 
+   - simple and easy to use/implement
+   - stable sorting algorithm
  - Cons
    -  It is much less efficient on large lists than more advanced algorithms such as quicksort and merge sort
+   -  
  - Big O Notation
    - O(n²)
 
- - Pseudo Code  
+ - Pseudo Code
+    # Step 1: Iterate through the deck starting from the second card (index 1).
+    # Step 2: For each card, determine its correct position in the sorted portion of the deck.
+    # Step 3: Shift all larger cards one position to the right to make space.
+    # Step 4: Insert the current card into its correct position.
+    # Step 5: Repeat until the entire deck is sorted
    
    
 
