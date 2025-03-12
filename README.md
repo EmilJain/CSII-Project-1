@@ -22,7 +22,18 @@ Insertion Sort
     - Step 3: Shift all larger cards one position to the right to make space.
     - Step 4: Insert the current card into its correct position.
     - Step 5: Repeat until the entire deck is sorted
-   
+   Bubble Sort
+- Repeadetly swaps the adjacent elements if they are in the wrong order.
+- Not suitable for large data sets and worst case time complexity are quite high
+- Sort the array using multiple passes. After the first pass the maximum element goes to the end. So on and so forth.
+- In every pass only elements that haven't been sorted get moved
+  Pros
+- Easy to understand and implement
+- Doesn't require additional memory
+- Stable algorithim
+  Cons
+- Very slow for large data sets
+- No or limited real world application. 
    
 
   
