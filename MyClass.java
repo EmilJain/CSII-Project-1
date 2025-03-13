@@ -13,5 +13,10 @@ public class MyClass {
         System.out.println("\ninsertion sort: ");
         shuffleDeck.insertionSort();
         shuffleDeck.print();
+
+        System.out.println("\nbubble sort: ");
+        shuffleDeck.shuffle();
+        shuffleDeck.insertionSort();
+        shuffleDeck.print();
     }
 }
