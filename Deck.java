@@ -212,5 +212,19 @@ public class Deck {
         // Insert the card into its correct position
         cards[j] = card;
     }
+
+    public void bubbleSort() {
+        boolean swapped;
+        for (int i = 0; i < cards.length - 1; i++) {
+            swapped = false;
+            for (int j = 0; j < cards.length - 1 - i; j++) {
+                if (cards[j].compareTo(cards[j + 1]) > 0) {
+                    swapCards(j, j + 1);
+                    swapped = true;
+                }
+            }
+            if (!swapped) break;
+        }
+    }
    
-}
+}//end class Deck
