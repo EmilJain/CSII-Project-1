@@ -202,15 +202,15 @@ public class Deck {
      * Inserts a card into its correct position in the sorted part of the deck.
      */
     private void insert(Card card, int i) {
-        int j = i;
+        int index = i;
 
         // Shift elements to make space for the new card
-        while (j > 0 && cards[j - 1].compareTo(card) > 0) {
-            cards[j] = cards[j - 1];
-            j--;
+        while (index > 0 && cards[index - 1].compareTo(card) > 0) {
+            cards[index] = cards[index - 1];
+            index--;
         }
         // Insert the card into its correct position
-        cards[j] = card;
+        cards[index] = card;
     }
 
     // Performs bubble sort on the cards array
