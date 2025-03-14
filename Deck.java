@@ -213,16 +213,21 @@ public class Deck {
         cards[j] = card;
     }
 
+    // Performs bubble sort on the cards array
+
     public void bubbleSort() {
         boolean swapped;
+         // Perform multiple passes through the array
         for (int i = 0; i < cards.length - 1; i++) {
             swapped = false;
+            // Compare adjacent cards and swap if they are out of order
             for (int j = 0; j < cards.length - 1 - i; j++) {
                 if (cards[j].compareTo(cards[j + 1]) > 0) {
                     swapCards(j, j + 1);
                     swapped = true;
                 }
             }
+            // Optimization: stop if no swaps occurred, meaning the array is already sorted
             if (!swapped) break;
         }
     }
